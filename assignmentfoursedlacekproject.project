@@ -33,20 +33,6 @@
             "forms",
             "Global",
             "Global.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "deleteCustomer",
-            "deleteCustomer.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
 
           ]
         }

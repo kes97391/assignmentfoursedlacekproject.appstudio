@@ -17,15 +17,7 @@ query = "SELECT * FROM customer"
     drpStates.addItem(message + results[i][4] + "\n")
     }
   } else 
-      lblErrorMessage.value = "Error Code:" + req.status
-}
 
-drpStates.onclick=function(s){
-  if (typeof(s) == "object")
-    return 
-  else 
-    drpStates.value = s
-    let state = drpStates.value 
     
 query = "SELECT * FROM customer WHERE state = " + "" + state + ""
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kes97391&pass=" + pw + "&database=kes97391&query=" + query)
