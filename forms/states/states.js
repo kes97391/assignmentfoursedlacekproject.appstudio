@@ -17,15 +17,7 @@ query = "SELECT * FROM customer"
     drpStates.addItem(message + results[i][4] + "\n")
     }
   } else 
-      lblErrorMessage.value = "Error Code": + req.status
-}
 
-drpStates.onclick=function(){
-  if (typeof(s) == "object")
-    return 
-  else 
-    drp.States.value = s
-    let state = drp.States.value 
     
 query = "SELECT * FROM customer WHERE state = " + "" + state + ""
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kes97391&pass=" + pw + "&database=kes97391&query=" + query)
@@ -38,7 +30,7 @@ query = "SELECT * FROM customer WHERE state = " + "" + state + ""
   if (results.length == 0)
     lblErrorMessage.value = "There are no customers in the database"
   else {
-control:
+
   let message = ""
   for (i = 0; i < results.length; i++)
     message = message + results[i][1] + "\n"
@@ -46,5 +38,4 @@ control:
     }
   } else 
     lblErrorMessage = "Error Code:" + req.status
-}
 }

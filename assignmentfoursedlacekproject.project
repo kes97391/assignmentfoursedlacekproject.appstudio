@@ -33,6 +33,7 @@
             "forms",
             "Global",
             "Global.json"
+
           ]
         }
       ],
@@ -55,7 +56,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "states",
+
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
