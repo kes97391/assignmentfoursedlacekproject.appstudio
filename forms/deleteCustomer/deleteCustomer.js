@@ -1,3 +1,4 @@
+
 deleteCustomer.onshow=function(){
   drpCustomers.clear()
 query = "SELECT * FROM customer"
