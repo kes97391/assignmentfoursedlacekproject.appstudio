@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 /*
 deleteCustomer.onshow=function(){
   drpCustomer.clear()
+=======
+deleteCustomer.onshow=function(){
+  drpCustomers.clear()
+>>>>>>> Stashed changes
 query = "SELECT * FROM customer"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kes97391&pass=" + pw + "&database=kes97391&query=" + query)
   
@@ -25,7 +30,11 @@ drpCustomers.onclick=function(s){
     return
   else {
     drpCustomers.value = s
+<<<<<<< Updated upstream
     let delCustomerName = drp.Customers.value
+=======
+    let delCustomerName = drpCustomers.value
+>>>>>>> Stashed changes
     console.log(`${delCustomerName}`)
     
   let found = false 
@@ -38,7 +47,11 @@ drpCustomers.onclick=function(s){
 if (found == false)
   lblErrorMsg.value = "That customer name is not in the database"
 else if (found == true) {
+<<<<<<< Updated upstream
   query = DELETE FROM customer WHERE name = '" + delCustomerName + "'"
+=======
+  query = "DELETE FROM customer WHERE name = '" + delCustomerName + "'"
+>>>>>>> Stashed changes
   alert(query)
   
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=kes97391&query=" + query)
@@ -57,5 +70,10 @@ else if (found == true) {
 btnRefresh.onclick=function(){
   btnRefresh.onclick=function(){
     deleteCustomer.reset()
+<<<<<<< Updated upstream
 }
 */
+=======
+  }
+}
+>>>>>>> Stashed changes
