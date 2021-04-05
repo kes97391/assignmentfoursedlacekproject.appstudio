@@ -1,5 +1,3 @@
-//When the form is shown, it populates the dropdown with customer names from Ormond's site's database utilizing a simple SELECT query.
-//When a specific name is selected within the dropdown, it will be deleted from Ormond's site.
 
 deleteCustomer.onshow=function(){
   drpCustomers.clear()

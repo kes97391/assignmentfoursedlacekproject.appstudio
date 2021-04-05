@@ -1,5 +1,4 @@
-//When the form is shown, it populates the dropdown with customer states from Ormond's site's database utilizing a simple SELECT query.
-//When a state is clicked, the customers associated with are displayed in a listgroup.
+
 states.onshow=function(){
 drpStates.clear()
 query = "SELECT * FROM customer"
