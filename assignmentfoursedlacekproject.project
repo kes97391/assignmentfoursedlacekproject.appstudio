@@ -33,7 +33,30 @@
             "forms",
             "Global",
             "Global.json"
-
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "deleteCustomer",
+            "deleteCustomer.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "babyNames",
+            "babyNames.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "favBabyNames",
+            "favBabyNames.json"
           ]
         }
       ],
@@ -56,7 +79,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-
+      "firstform": "favBabyNames",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

@@ -14,7 +14,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "BabyNames",
+        "babyNames",
         "Elements",
         "selBabyNames.json"
       ]
@@ -23,7 +23,7 @@
       "!type": "External",
       "file": [
         "forms",
-        "BabyNames",
+        "babyNames",
         "Elements",
         "btnBabyNames.json"
       ]
@@ -35,7 +35,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "BabyNames",
+  "id": "babyNames",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
